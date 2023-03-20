@@ -152,7 +152,6 @@ def GameMechanic():
                 bResult = []
                 for i in range(len(bRPC) // 2):
                     bResult.append((bRPC.index(bInput) + (i + 1)) % len(bRPC) )
-                    #print(bResult)
 
                 if x in bResult:
                     ScoreManager(0)
