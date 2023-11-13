@@ -18,4 +18,4 @@ for i in range(len(bBin)):
         bLocked += bEncode[int(bLastDigit)]
     else:
         bLocked += '0'
-print(bLocked)
+print(bLocked[1:])
